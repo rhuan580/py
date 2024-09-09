@@ -1,0 +1,8 @@
+soma = 0
+for i in range(10):
+    print(i)
+    j = i+1
+numero = int(input(f"Informe o {j}º número: "))	
+soma = numero
+
+print(f"A soma é {soma}")
