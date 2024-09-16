@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Olímpiadas</title>
+</head>
+<body>
+    <header>
+        <h1>Atletas do Brasil</h1>
+    </header> 
+    <main>
+        <section>
+        <input type="text" placeholder="Digite o nome do atleta">
+        <button>Pesquisar</button>
+    </section>
+    <section class="resultados-pesquisa">
+        <div class="item-resultado">
+            <h2>
+                <a href="#" target="_blank">Rebeca Andrade</a>
+            </h2>
+            <p class="descricao-meta">
+                Rebeca Andrade: Um ícone da ginástica brasileira
+                Rebeca Andrade é, sem dúvida, um dos maiores nomes da ginástica artística brasileira de todos os tempos. Com sua força, determinação e talento inegável, ela conquistou o coração dos brasileiros e se tornou um símbolo de superação. Após superar diversas lesões, a atleta conquistou medalhas históricas nos Jogos Olímpicos, tornando-se a primeira brasileira a ser campeã olímpica na ginástica artística feminina. Sua trajetória inspiradora é um exemplo de que com dedicação e persistência é possível alcançar grandes feitos.
+             </p>
+        
+     <a href="https://pt.wikipedia.org/wiki/Rebeca_Andrade" target="_blank">Mais informações</a>
+        </div>
+        <div>
+            <h2>
+            <p class="descricao-meta">
+                Rayssa Leal:
+                 A fada do skate brasileiro
+                é um nome que brilha no cenário mundial do skate, especialmente na modalidade street. A jovem skatista brasileira, também conhecida como "Fadinha", conquistou o coração de milhões com seu talento, carisma e determinação.
+                </p>
+            <a href="https://pt.wikipedia.org/wiki/Rayssa_Leal" target="_blank">Mais informações</a>
+            </h2>
+        </div>
+        
+        <div>
+            <h2>
+            <p class="descricao-meta">
+                Beatriz Souza: 
+                A nova estrela do judô brasileiro
+                é uma judoca brasileira que vem fazendo história no esporte. Natural de Itariri, em São Paulo, ela se destacou nas categorias de peso mais altas e conquistou o coração dos brasileiros com sua força e determinação.
+                </p>
+            <a href="https://[link_para_biografia_de_Beatriz_Souza]" target="_blank">Mais informações</a>
+            </h2> 
+        </div>
+    </section>
+    </main>
+    <footer>
+        <p>2024 - Atletas do Brasil. Todos os direitos reservados</p>
+        <p>Entre em contato pelo e-mail: rhuan580@gmail.com</p>
+    </footer> 
+    <script src="app.js"></script> 
+</body>
+</html>
