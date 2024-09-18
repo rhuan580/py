@@ -1,3 +1,4 @@
+from funcoes import relatório
 produtos = []
 
 def incluir():
@@ -28,3 +29,5 @@ while True:
 
     elif op == 1:
         incluir()
+    elif op == 2:
+        relatório(produtos)
