@@ -7,6 +7,13 @@ class Aluno:
     def media(self):
         return (self.nota1 + self.nota2) / 2
 
+    def situacao(self, media):
+        if media >= 7:
+            return "Aprovado"
+        else:
+            return "Reprovado"
+    
+
 
 def cadastrar_aluno():
     nome = input("Digite o nome do aluno: ")
@@ -21,7 +28,7 @@ def relatorio_alunos(alunos):
     else:
         print("\nRelatório de Alunos:")
         for aluno in alunos:
-            print(f"Nome: {aluno.nome}, Nota 1: {aluno.nota1}, Nota 2: {aluno.nota2}, Média: {aluno.media():.2f}")
+            print(f"Nome: {aluno.nome}, Nota 1: {aluno.nota1}, Nota 2: {aluno.nota2}, Média: {aluno.media():.2f}, Situação: {aluno.situacao(aluno.media())}")
 
 
 def main():
